@@ -10,8 +10,8 @@ Enhanced q syntax for vim
 
 ```
 git clone https://github.com/jshinonome/vim-q-syntax.git
-mkdir ~/.vim/ftdetect
-mkdir ~/.vim/syntax
+mkdir -p ~/.vim/ftdetect
+mkdir -p ~/.vim/syntax
 cp vim-q-syntax/ftdetect/q.vim ~/.vim/ftdetect
 cp vim-q-syntax/syntax/q.vim ~/.vim/syntax
 ```
